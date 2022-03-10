@@ -1,17 +1,14 @@
-from flask import Flask, url_for, request, render_template
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 
 @app.route('/')
-@app.route('/index/<title>')
-def index(title):
-    param = {}
-    param["title"] = title
-    return render_template('index.html', **param)
+@app.route("/list_proof/<listt>")
+def list_proof(listt):
 
-@app.route("/training/<prof>")
-def training(prof):
-    return render_template('trainings.html', prof=prof.lower())
+    main_list=[1,2,3,4,1,2,5555]
+    return render_template('index.html', list=listt, main_list=main_list)
+
 if __name__ == '__main__':
     app.run(port=8080, host='127.0.0.1')
