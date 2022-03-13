@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-        <title>{{ title }}</title>
-    </head>
-    <body>
-        <h1>Миссия Колонизация Марса</h1>
-        <h4>И на Марсе будут яблони цвести!</h4>
-        {%for i in main_list%}
-            {%if list == "ol"%}
-                <p>{{loop["index"]}}. {{i}}</p>
-            {%elif list == "ul"%}
-                <p>* {{i}}</p>
-            {%else%}
-                <p>wrong parameter(ul/ol)</p>
-            {%endif%}
-        {%endfor%}
-    </body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>размещение по каютам</h1>
+    {% set text = "каюта №" %}
+    {%for i in main_list%}
+        {%if loop["index"] == 1%}
+            <p>{{i}} - {{text}} {{loop["index"]}} - капитан коробля</p>
+        {%else%}
+            <p>{{i}} - {{text}} {{loop["index"]}}</p>
+        {%endif%}
+    {%endfor%}
+{% endblock %}
