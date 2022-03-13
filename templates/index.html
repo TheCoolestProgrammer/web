@@ -1,24 +1,19 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h2>оформление каюты</h2>
-    <pre>цвет стен                  эмблема</pre>
 
-    {%if sex == "female"%}
-        {%if age >= 21%}
-            <img src="/static/image/alien_female_old_wallpaper.png" alt="здесь должна была быть картинка, но не нашлась">
-            <img src="/static/image/alien_female_old_character.png" alt="здесь должна была быть картинка, но не нашлась">
-        {%else%}
-            <img src="/static/image/alien_female_young_wallpaper.png" alt="здесь должна была быть картинка, но не нашлась">
-            <img src="/static/image/alien_female_young_character.png" alt="здесь должна была быть картинка, но не нашлась">
+    {%set c = members | length%}
+    {%set b = range(1, c+1) | random%}
+    {%for i in members%}
+        {%if loop["index"] == b%}
+            {%set x = members[i]%}
+            <h1>{{i}}</h1>
+            {%set photo = x["path_to_photo"]%}
+            <img src={{photo}} alt="здесь должна была быть картинка, но не нашлась">
+            <h1>{{ x["specialisetions"] | sort | join(", ")}}  </h1>
         {%endif%}
-    {%elif sex == "male"%}
-        {%if age >= 21%}
-            <img src="/static/image/alien_male_old_wallpaper.png" alt="здесь должна была быть картинка, но не нашлась">
-            <img src="/static/image/alien_male_old_character.png" alt="здесь должна была быть картинка, но не нашлась">
-        {%else%}
-            <img src="/static/image/alien_male_young_wallpaper.png" alt="здесь должна была быть картинка, но не нашлась">
-            <img src="/static/image/alien_male_young_character.png" alt="здесь должна была быть картинка, но не нашлась">
-            {%endif%}
-    {%endif%}
+    {%endfor%}
+
+
+
 {% endblock %}
