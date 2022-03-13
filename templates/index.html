@@ -1,13 +1,24 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>размещение по каютам</h1>
-    {% set text = "каюта №" %}
-    {%for i in main_list%}
-        {%if loop["index"] == 1%}
-            <p>{{i}} - {{text}} {{loop["index"]}} - капитан коробля</p>
+    <h2>оформление каюты</h2>
+    <pre>цвет стен                  эмблема</pre>
+
+    {%if sex == "female"%}
+        {%if age >= 21%}
+            <img src="/static/image/alien_female_old_wallpaper.png" alt="здесь должна была быть картинка, но не нашлась">
+            <img src="/static/image/alien_female_old_character.png" alt="здесь должна была быть картинка, но не нашлась">
         {%else%}
-            <p>{{i}} - {{text}} {{loop["index"]}}</p>
+            <img src="/static/image/alien_female_young_wallpaper.png" alt="здесь должна была быть картинка, но не нашлась">
+            <img src="/static/image/alien_female_young_character.png" alt="здесь должна была быть картинка, но не нашлась">
         {%endif%}
-    {%endfor%}
+    {%elif sex == "male"%}
+        {%if age >= 21%}
+            <img src="/static/image/alien_male_old_wallpaper.png" alt="здесь должна была быть картинка, но не нашлась">
+            <img src="/static/image/alien_male_old_character.png" alt="здесь должна была быть картинка, но не нашлась">
+        {%else%}
+            <img src="/static/image/alien_male_young_wallpaper.png" alt="здесь должна была быть картинка, но не нашлась">
+            <img src="/static/image/alien_male_young_character.png" alt="здесь должна была быть картинка, но не нашлась">
+            {%endif%}
+    {%endif%}
 {% endblock %}
