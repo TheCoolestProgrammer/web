@@ -10,7 +10,7 @@ app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 
 
 def main():
-    # app.run()
+    #app.run()
     user = User()
     user.surname = "Scott"
     user.name = "Ridley"
