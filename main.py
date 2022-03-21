@@ -1,87 +1,49 @@
-from flask import Flask, render_template
-import json
+from flask import render_template
+from flask import Flask
 from data import db_session
-from data.users import User
+from data.jobs import Jobs
 
 db_session.global_init("db/blogs.db")
-
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 
+@app.route("/")
+def index():
 
+    db_sess = db_session.create_session()
+    jobs = db_sess.query(Jobs).all()
+
+    return render_template("index.html", jobs=jobs)
 def main():
-    #app.run()
-    user = User()
-    user.surname = "Scott"
-    user.name = "Ridley"
-    user.age = 21
-    user.position = "captain"
-    user.speciality = "research engineer"
-    user.address = "module_1"
-    user.email = "scott_chief@mars.org"
+    job = Jobs()
+    job.team_leader = "captain Jack Sparrow"
+    job.job = "pirating"
+    job.work_size = 24
+    job.collaborators = "Tobie Mckguire, Batman, Ryan Gosling"
+    job.is_finished =False
     db_sess = db_session.create_session()
-    db_sess.add(user)
+    db_sess.add(job)
     db_sess.commit()
 
-    user = User()
-    user.name = "Spike"
-    user.surname = "Shpigel"
-    user.age = 21
-    user.position = "head hunter"
-    user.speciality = "striker"
-    user.address = "somewhere on bebop"
-    user.email = "see_ya_space_cowboy@syndicat.net"
+    job = Jobs()
+    job.team_leader = "Leon from brawl stars"
+    job.job = "bank robbery"
+    job.work_size = 2
+    job.collaborators = "Frank, deadpool, terminator"
+    job.is_finished = False
     db_sess = db_session.create_session()
-    db_sess.add(user)
+    db_sess.add(job)
     db_sess.commit()
 
-    user = User()
-    user.name = "Jett"
-    user.surname = "Black"
-    user.age = 52
-    user.position = "head hunter"
-    user.speciality = "technic"
-    user.address = "on the kitchen"
-    user.email = "i_willnt_save_your_ass_anymore@univerce_police.org"
+    job = Jobs()
+    job.team_leader = "russian"
+    job.job = "aneckdot(need american)"
+    job.work_size = 128
+    job.collaborators = "german"
+    job.is_finished = False
     db_sess = db_session.create_session()
-    db_sess.add(user)
+    db_sess.add(job)
     db_sess.commit()
 
-    user = User()
-    user.name = "Fai"
-    user.surname = "Valentine"
-    user.age = 20
-    user.position = "head hunter"
-    user.speciality = "striker"
-    user.address = "somewhere in casino"
-    user.email = "pls_give_me_some_money@gmail.com"
-    db_sess = db_session.create_session()
-    db_sess.add(user)
-    db_sess.commit()
-
-    user = User()
-    user.surname = "Edward"
-    user.age = 11
-    user.position = "i hacked this database LMAO ^W^"
-    user.speciality = "hacker 0_0"
-    user.address = "2-0934-0213o"
-    user.email = "-------------@------.---"
-    db_sess = db_session.create_session()
-    db_sess.add(user)
-    db_sess.commit()
-
-    user = User()
-    user.surname = "Einstein"
-    user.name = "Corgie"
-    user.age = 1000000
-    user.position = "corgie"
-    user.speciality = "corgie"
-    user.address = "corgie"
-    user.email = "corgie@corgie.corgie"
-    db_sess = db_session.create_session()
-    db_sess.add(user)
-    db_sess.commit()
-
-
-if __name__ == '__main__':
-    main()
+if __name__ == "__main__":
+    app.run(port=8080, host='127.0.0.1')

@@ -1,9 +1,9 @@
 import datetime
 import sqlalchemy
-from .db_session import SqlAlchemyBase
+from . import db_session
 
 
-class User(SqlAlchemyBase):
+class User(db_session.SqlAlchemyBase):
     __tablename__ = 'Users'
 
     id = sqlalchemy.Column(sqlalchemy.Integer,
@@ -18,3 +18,6 @@ class User(SqlAlchemyBase):
     hashed_password = sqlalchemy.Column(sqlalchemy.String, nullable=True)
     modified_date = sqlalchemy.Column(sqlalchemy.DateTime,
                                       default=datetime.datetime.now)
+
+    def __repr__(self):
+        return f'<Colonist>{id} {self.name} {self.surname}'
