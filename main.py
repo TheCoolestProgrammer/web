@@ -5,7 +5,7 @@ from data import db_session
 from data.jobs import Jobs
 from data.users import User
 from data.users import RegisterForm
-from flask_login import LoginManager, login_user
+from flask_login import LoginManager, login_user, logout_user, login_required
 from flask_wtf import FlaskForm
 from wtforms import PasswordField, SubmitField, EmailField, BooleanField, StringField, TextAreaField
 from wtforms.validators import DataRequired
@@ -69,13 +69,19 @@ def login():
                                form=form)
     return render_template('login.html', title='Авторизация', form=form)
 
+@app.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    return redirect("/")
+
 @app.route("/")
+@login_required
 def index():
-
-    db_sess = db_session.create_session()
-    jobs = db_sess.query(Jobs).all()
-
-    return render_template("index.html", jobs=jobs)
+    # db_sess = db_session.create_session()
+    # user= db_sess.query(User).all()
+    user = login_manager
+    return render_template("index.html", users=user)
 
 if __name__ == "__main__":
     app.run(port=8080, host='127.0.0.1')
