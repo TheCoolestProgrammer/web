@@ -4,6 +4,7 @@ from flask import Flask
 from data import db_session
 from data.jobs import Jobs
 from data.users import User
+from data.users import RegisterForm
 from flask_login import LoginManager, login_user
 from flask_wtf import FlaskForm
 from wtforms import PasswordField, SubmitField, EmailField, BooleanField, StringField, TextAreaField
@@ -17,24 +18,10 @@ app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 login_manager = LoginManager()
 login_manager.init_app(app)
 
-def set_password(self, password):
-    self.hashed_password = generate_password_hash(password)
-
-def check_password(self, password):
-    return check_password_hash(self.hashed_password, password)
-
 @login_manager.user_loader
 def load_user(user_id):
     db_sess = db_session.create_session()
     return db_sess.query(User).get(user_id)
-
-class RegisterForm(FlaskForm):
-    email = EmailField('Почта', validators=[DataRequired()])
-    password = PasswordField('Пароль', validators=[DataRequired()])
-    password_again = PasswordField('Повторите пароль', validators=[DataRequired()])
-    name = StringField('Имя пользователя', validators=[DataRequired()])
-    about = TextAreaField("Немного о себе")
-    submit = SubmitField('Войти')
 
 
 @app.route('/register', methods=['GET', 'POST'])
@@ -53,7 +40,6 @@ def reqister():
         user = User(
             name=form.name.data,
             email=form.email.data,
-            about=form.about.data
         )
         user.set_password(form.password.data)
         db_sess.add(user)
