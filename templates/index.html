@@ -1,6 +1,26 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>здесьб должен быть контент</h1>
+    <h1>work logs</h1>
+    {% for item in jobs%}
+        <div class="col-md6 border rounded">
+            <h1>
+                Action #{{loop["index"]}}
+            </h1>
+            <div>
+                работа: {{item.job}}
+            </div>
+            <div>
+                {%if item.is_finished == true%}
+                    статус: мест нет
+                {%else%}
+                    статус: свободно
+                {%endif%}
+            </div>
+            <div>
+                работодатель: {{item.team_leader}}, Дата написания - {{item.start_date}}
+            </div>
+            <br>
+        </div>
+    {% endfor %}
 {% endblock %}
-
