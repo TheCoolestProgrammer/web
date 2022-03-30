@@ -11,8 +11,8 @@ blueprint = flask.Blueprint(
 )
 
 
-@blueprint.route('/api/jobs')
-def get_news():
+@blueprint.route('/api/jobs/<int:job_id>')
+def get_news(job_id):
 
     db_session.global_init("db/blogs.db")
     db_sess = db_session.create_session()
@@ -21,6 +21,6 @@ def get_news():
         {
             'news':
                 [item.to_dict(only=('id', 'job', 'team_leader'))
-                 for item in jobs]
+                 for item in jobs if item.id == job_id]
         }
     )
