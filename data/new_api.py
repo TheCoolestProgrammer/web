@@ -1,26 +1,28 @@
-import flask
-from flask import render_template, jsonify
+from flask import Flask
+from sqlalchemy import func
 
-from . import db_session
-from .jobs import Jobs
+name = input()
+global_init(name)
 
-blueprint = flask.Blueprint(
-    'jobs_api',
-    __name__,
-    template_folder='templates'
-)
+app = Flask(__name__)
+app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 
 
-@blueprint.route('/api/jobs/<int:job_id>')
-def get_news(job_id):
+def main():
+    # app.run()
 
-    db_session.global_init("db/blogs.db")
-    db_sess = db_session.create_session()
-    jobs = db_sess.query(Jobs).all()
-    return jsonify(
-        {
-            'news':
-                [item.to_dict(only=('id', 'job', 'team_leader'))
-                 for item in jobs if item.id == job_id]
-        }
-    )
+    db_sess = create_session()
+    counter = []
+    for user in db_sess.query(Jobs):
+        counter.append(len(user.collaborators.split()))
+    maxx = max(counter)
+    for user in db_sess.query(Jobs):
+        if len(user.collaborators.split()) == maxx:
+            print(User[user.team_leader])
+
+    # for user in user.query(User).all():
+    #     print(user)
+
+
+if __name__ == '__main__':
+    main()
