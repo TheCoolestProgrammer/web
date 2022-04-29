@@ -1,0 +1,1419 @@
+{
+  'response': {
+    'GeoObjectCollection': {
+      'metaDataProperty': {
+        'GeocoderResponseMetaData': {
+          'request': 'Петербург, метро',
+          'results': '25',
+          'found': '25'
+        }
+      },
+      'featureMember': [
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Россия, Ленинградская область, Лужский район, Мшинское сельское поселение, садоводческий массив Мшинская, садоводческое некоммерческое товарищество Метро-1',
+                'kind': 'locality',
+                'Address': {
+                  'country_code': 'RU',
+                  'formatted': 'Россия, Ленинградская область, Лужский район, Мшинское сельское поселение, садоводческий массив Мшинская, садоводческое некоммерческое товарищество Метро-1',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Россия'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Северо-Западный федеральный округ'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Ленинградская область'
+                    },
+                    {
+                      'kind': 'area',
+                      'name': 'Лужский район'
+                    },
+                    {
+                      'kind': 'area',
+                      'name': 'Мшинское сельское поселение'
+                    },
+                    {
+                      'kind': 'locality',
+                      'name': 'садоводческий массив Мшинская'
+                    },
+                    {
+                      'kind': 'locality',
+                      'name': 'садоводческое некоммерческое товарищество Метро-1'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Россия, Ленинградская область, Лужский район, Мшинское сельское поселение, садоводческий массив Мшинская, садоводческое некоммерческое товарищество Метро-1',
+                    'CountryNameCode': 'RU',
+                    'CountryName': 'Россия',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Ленинградская область',
+                      'SubAdministrativeArea': {
+                        'SubAdministrativeAreaName': 'Лужский район',
+                        'Locality': {
+                          'LocalityName': 'садоводческий массив Мшинская',
+                          'DependentLocality': {
+                            'DependentLocalityName': 'садоводческое некоммерческое товарищество Метро-1'
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'садоводческое некоммерческое товарищество Метро-1',
+            'description': 'садоводческий массив Мшинская, Мшинское сельское поселение, Лужский район, Ленинградская область, Россия',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '29.978299 59.026008',
+                'upperCorner': '29.988253 59.032584'
+              }
+            },
+            'Point': {
+              'pos': '29.981632 59.028282'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Россия, Санкт-Петербург',
+                'kind': 'locality',
+                'Address': {
+                  'country_code': 'RU',
+                  'formatted': 'Россия, Санкт-Петербург',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Россия'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Северо-Западный федеральный округ'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Санкт-Петербург'
+                    },
+                    {
+                      'kind': 'locality',
+                      'name': 'Санкт-Петербург'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Россия, Санкт-Петербург',
+                    'CountryNameCode': 'RU',
+                    'CountryName': 'Россия',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Санкт-Петербург',
+                      'Locality': {
+                        'LocalityName': 'Санкт-Петербург'
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'Санкт-Петербург',
+            'description': 'Россия',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '30.043382 59.744315',
+                'upperCorner': '30.566435 60.090921'
+              }
+            },
+            'Point': {
+              'pos': '30.315877 59.939099'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': "Кот-д'Ивуар, Сегюэла, Метро",
+                'kind': 'locality',
+                'Address': {
+                  'country_code': 'CI',
+                  'formatted': "Кот-д'Ивуар, Сегюэла, Метро",
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': "Кот-д'Ивуар"
+                    },
+                    {
+                      'kind': 'area',
+                      'name': 'Сегюэла'
+                    },
+                    {
+                      'kind': 'locality',
+                      'name': 'Метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': "Кот-д'Ивуар, Сегюэла, Метро",
+                    'CountryNameCode': 'CI',
+                    'CountryName': "Кот-д'Ивуар",
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Сегюэла',
+                      'Locality': {
+                        'LocalityName': 'Метро'
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'Метро',
+            'description': "Сегюэла, Кот-д'Ивуар",
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '-7.167604 8.9325',
+                'upperCorner': '-7.161513 8.936404'
+              }
+            },
+            'Point': {
+              'pos': '-7.164451 8.934671'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Австралия, Квинсленд, Метро',
+                'kind': 'locality',
+                'Address': {
+                  'country_code': 'AU',
+                  'formatted': 'Австралия, Квинсленд, Метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Австралия'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Квинсленд'
+                    },
+                    {
+                      'kind': 'locality',
+                      'name': 'Метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Австралия, Квинсленд, Метро',
+                    'CountryNameCode': 'AU',
+                    'CountryName': 'Австралия',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Квинсленд',
+                      'Locality': {
+                        'LocalityName': 'Метро'
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'Метро',
+            'description': 'Квинсленд, Австралия',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '147.413296 -24.609955',
+                'upperCorner': '147.545096 -24.4894'
+              }
+            },
+            'Point': {
+              'pos': '147.479196 -24.549692'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Россия, Новосибирский район, СНТ Метро',
+                'kind': 'locality',
+                'Address': {
+                  'country_code': 'RU',
+                  'formatted': 'Россия, Новосибирский район, СНТ Метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Россия'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Сибирский федеральный округ'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Новосибирская область'
+                    },
+                    {
+                      'kind': 'area',
+                      'name': 'Новосибирский район'
+                    },
+                    {
+                      'kind': 'locality',
+                      'name': 'СНТ Метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Россия, Новосибирский район, СНТ Метро',
+                    'CountryNameCode': 'RU',
+                    'CountryName': 'Россия',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Новосибирская область',
+                      'SubAdministrativeArea': {
+                        'SubAdministrativeAreaName': 'Новосибирский район',
+                        'Locality': {
+                          'LocalityName': 'СНТ Метро'
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'СНТ Метро',
+            'description': 'Новосибирский район, Россия',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '83.368958 54.989817',
+                'upperCorner': '83.383619 54.998297'
+              }
+            },
+            'Point': {
+              'pos': '83.377367 54.994429'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Россия, Москва, поселение Московский, садоводческое некоммерческое товарищество Метро',
+                'kind': 'locality',
+                'Address': {
+                  'country_code': 'RU',
+                  'formatted': 'Россия, Москва, поселение Московский, садоводческое некоммерческое товарищество Метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Россия'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Центральный федеральный округ'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Москва'
+                    },
+                    {
+                      'kind': 'area',
+                      'name': 'Новомосковский административный округ'
+                    },
+                    {
+                      'kind': 'area',
+                      'name': 'поселение Московский'
+                    },
+                    {
+                      'kind': 'locality',
+                      'name': 'садоводческое некоммерческое товарищество Метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Россия, Москва, поселение Московский, садоводческое некоммерческое товарищество Метро',
+                    'CountryNameCode': 'RU',
+                    'CountryName': 'Россия',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Москва',
+                      'SubAdministrativeArea': {
+                        'SubAdministrativeAreaName': 'Новомосковский административный округ',
+                        'Locality': {
+                          'LocalityName': 'садоводческое некоммерческое товарищество Метро'
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'садоводческое некоммерческое товарищество Метро',
+            'description': 'поселение Московский, Москва, Россия',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '37.41644 55.638755',
+                'upperCorner': '37.418739 55.640726'
+              }
+            },
+            'Point': {
+              'pos': '37.417634 55.639822'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Украина, садовые участки Метро',
+                'kind': 'locality',
+                'Address': {
+                  'country_code': 'UA',
+                  'formatted': 'Украина, садовые участки Метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Украина'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Днепропетровская область'
+                    },
+                    {
+                      'kind': 'area',
+                      'name': 'Днепровский район'
+                    },
+                    {
+                      'kind': 'locality',
+                      'name': 'садовые участки Метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Украина, садовые участки Метро',
+                    'CountryNameCode': 'UA',
+                    'CountryName': 'Украина',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Днепропетровская область',
+                      'SubAdministrativeArea': {
+                        'SubAdministrativeAreaName': 'Днепровский район',
+                        'Locality': {
+                          'LocalityName': 'садовые участки Метро'
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'садовые участки Метро',
+            'description': 'Украина',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '34.796296 48.537305',
+                'upperCorner': '34.805495 48.540204'
+              }
+            },
+            'Point': {
+              'pos': '34.800779 48.538814'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Россия, Московская область, Наро-Фоминский городской округ, СНТ Метро',
+                'kind': 'locality',
+                'Address': {
+                  'country_code': 'RU',
+                  'formatted': 'Россия, Московская область, Наро-Фоминский городской округ, СНТ Метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Россия'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Центральный федеральный округ'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Московская область'
+                    },
+                    {
+                      'kind': 'area',
+                      'name': 'Наро-Фоминский городской округ'
+                    },
+                    {
+                      'kind': 'locality',
+                      'name': 'СНТ Метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Россия, Московская область, Наро-Фоминский городской округ, СНТ Метро',
+                    'CountryNameCode': 'RU',
+                    'CountryName': 'Россия',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Московская область',
+                      'SubAdministrativeArea': {
+                        'SubAdministrativeAreaName': 'Наро-Фоминский городской округ',
+                        'Locality': {
+                          'LocalityName': 'СНТ Метро'
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'СНТ Метро',
+            'description': 'Наро-Фоминский городской округ, Московская область, Россия',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '36.179217 55.369863',
+                'upperCorner': '36.183529 55.373414'
+              }
+            },
+            'Point': {
+              'pos': '36.181391 55.371296'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Франция, Бургундия-Франш-Конте, Ньевр, Округ Невер, Пуазё, Ле Метро',
+                'kind': 'locality',
+                'Address': {
+                  'country_code': 'FR',
+                  'formatted': 'Франция, Бургундия-Франш-Конте, Ньевр, Округ Невер, Пуазё, Ле Метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Франция'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Бургундия-Франш-Конте'
+                    },
+                    {
+                      'kind': 'area',
+                      'name': 'Ньевр'
+                    },
+                    {
+                      'kind': 'area',
+                      'name': 'Округ Невер'
+                    },
+                    {
+                      'kind': 'district',
+                      'name': 'Пуазё'
+                    },
+                    {
+                      'kind': 'locality',
+                      'name': 'Ле Метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Франция, Бургундия-Франш-Конте, Ньевр, Округ Невер, Пуазё, Ле Метро',
+                    'CountryNameCode': 'FR',
+                    'CountryName': 'Франция',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Бургундия-Франш-Конте',
+                      'SubAdministrativeArea': {
+                        'SubAdministrativeAreaName': 'Ньевр',
+                        'Locality': {
+                          'DependentLocality': {
+                            'DependentLocalityName': 'Пуазё',
+                            'DependentLocality': {
+                              'DependentLocalityName': 'Ле Метро'
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'Ле Метро',
+            'description': 'Пуазё, Округ Невер, Ньевр, Бургундия-Франш-Конте, Франция',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '3.165259 47.077492',
+                'upperCorner': '3.29706 47.167454'
+              }
+            },
+            'Point': {
+              'pos': '3.231159 47.122492'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Румыния, Бухарест, сектор Бухарест-1, линия метро М4',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'RO',
+                  'formatted': 'Румыния, Бухарест, сектор Бухарест-1, линия метро М4',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Румыния'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Бухарест'
+                    },
+                    {
+                      'kind': 'district',
+                      'name': 'сектор Бухарест-1'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': 'линия метро М4'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Румыния, Бухарест, сектор Бухарест-1, линия метро М4',
+                    'CountryNameCode': 'RO',
+                    'CountryName': 'Румыния',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Бухарест',
+                      'Locality': {
+                        'DependentLocality': {
+                          'DependentLocalityName': 'сектор Бухарест-1',
+                          'Thoroughfare': {
+                            'ThoroughfareName': 'линия метро М4'
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'линия метро М4',
+            'description': 'сектор Бухарест-1, Бухарест, Румыния',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '26.025415 44.447835',
+                'upperCorner': '26.075065 44.50277'
+              }
+            },
+            'Point': {
+              'pos': '26.048161 44.473614'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Великобритания, Англия, Мидленд-Метро',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'GB',
+                  'formatted': 'Великобритания, Англия, Мидленд-Метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Великобритания'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Англия'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': 'Мидленд-Метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Великобритания, Англия, Мидленд-Метро',
+                    'CountryNameCode': 'GB',
+                    'CountryName': 'Великобритания',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Англия',
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'Мидленд-Метро',
+            'description': 'Англия, Великобритания',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '-2.12465 52.478522',
+                'upperCorner': '-1.895508 52.584052'
+              }
+            },
+            'Point': {
+              'pos': '-2.011031 52.530774'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Китай, город центрального подчинения Чунцин, 10-я линия метро',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'CN',
+                  'formatted': 'Китай, город центрального подчинения Чунцин, 10-я линия метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Китай'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'город центрального подчинения Чунцин'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': '10-я линия метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Китай, город центрального подчинения Чунцин, 10-я линия метро',
+                    'CountryNameCode': 'CN',
+                    'CountryName': 'Китай',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'город центрального подчинения Чунцин',
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': '10-я линия метро',
+            'description': 'город центрального подчинения Чунцин, Китай',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '106.541603 29.576368',
+                'upperCorner': '106.654333 29.747499'
+              }
+            },
+            'Point': {
+              'pos': '106.601045 29.651763'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Китай, город центрального подчинения Чунцин, 1-я линия метро',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'CN',
+                  'formatted': 'Китай, город центрального подчинения Чунцин, 1-я линия метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Китай'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'город центрального подчинения Чунцин'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': '1-я линия метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Китай, город центрального подчинения Чунцин, 1-я линия метро',
+                    'CountryNameCode': 'CN',
+                    'CountryName': 'Китай',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'город центрального подчинения Чунцин',
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': '1-я линия метро',
+            'description': 'город центрального подчинения Чунцин, Китай',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '106.283194 29.534435',
+                'upperCorner': '106.514618 29.618472'
+              }
+            },
+            'Point': {
+              'pos': '106.392986 29.6137'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Китай, город центрального подчинения Чунцин, 2-я линия метро',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'CN',
+                  'formatted': 'Китай, город центрального подчинения Чунцин, 2-я линия метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Китай'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'город центрального подчинения Чунцин'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': '2-я линия метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Китай, город центрального подчинения Чунцин, 2-я линия метро',
+                    'CountryNameCode': 'CN',
+                    'CountryName': 'Китай',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'город центрального подчинения Чунцин',
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': '2-я линия метро',
+            'description': 'город центрального подчинения Чунцин, Китай',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '106.468372 29.378833',
+                'upperCorner': '106.572442 29.569364'
+              }
+            },
+            'Point': {
+              'pos': '106.5055 29.502779'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Китай, город центрального подчинения Чунцин, 6-я линия метро',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'CN',
+                  'formatted': 'Китай, город центрального подчинения Чунцин, 6-я линия метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Китай'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'город центрального подчинения Чунцин'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': '6-я линия метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Китай, город центрального подчинения Чунцин, 6-я линия метро',
+                    'CountryNameCode': 'CN',
+                    'CountryName': 'Китай',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'город центрального подчинения Чунцин',
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': '6-я линия метро',
+            'description': 'город центрального подчинения Чунцин, Китай',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '106.391513 29.490551',
+                'upperCorner': '106.657468 29.829069'
+              }
+            },
+            'Point': {
+              'pos': '106.517816 29.669369'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Китай, город центрального подчинения Чунцин, 5-я линия метро',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'CN',
+                  'formatted': 'Китай, город центрального подчинения Чунцин, 5-я линия метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Китай'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'город центрального подчинения Чунцин'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': '5-я линия метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Китай, город центрального подчинения Чунцин, 5-я линия метро',
+                    'CountryNameCode': 'CN',
+                    'CountryName': 'Китай',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'город центрального подчинения Чунцин',
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': '5-я линия метро',
+            'description': 'город центрального подчинения Чунцин, Китай',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '106.490731 29.569631',
+                'upperCorner': '106.5555 29.678414'
+              }
+            },
+            'Point': {
+              'pos': '106.522954 29.626643'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Китай, город центрального подчинения Чунцин, 4-я линия метро',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'CN',
+                  'formatted': 'Китай, город центрального подчинения Чунцин, 4-я линия метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Китай'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'город центрального подчинения Чунцин'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': '4-я линия метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Китай, город центрального подчинения Чунцин, 4-я линия метро',
+                    'CountryNameCode': 'CN',
+                    'CountryName': 'Китай',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'город центрального подчинения Чунцин',
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': '4-я линия метро',
+            'description': 'город центрального подчинения Чунцин, Китай',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '106.526107 29.606674',
+                'upperCorner': '106.651494 29.627741'
+              }
+            },
+            'Point': {
+              'pos': '106.589627 29.626148'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Китай, город центрального подчинения Чунцин, 3-я линия метро',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'CN',
+                  'formatted': 'Китай, город центрального подчинения Чунцин, 3-я линия метро',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Китай'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'город центрального подчинения Чунцин'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': '3-я линия метро'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Китай, город центрального подчинения Чунцин, 3-я линия метро',
+                    'CountryNameCode': 'CN',
+                    'CountryName': 'Китай',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'город центрального подчинения Чунцин',
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': '3-я линия метро',
+            'description': 'город центрального подчинения Чунцин, Китай',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '106.502068 29.377858',
+                'upperCorner': '106.66831 29.794349'
+              }
+            },
+            'Point': {
+              'pos': '106.545358 29.602545'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Венесуэла, Метро Лос-Текес | Линия 1',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'VE',
+                  'formatted': 'Венесуэла, Метро Лос-Текес | Линия 1',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Венесуэла'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': 'Метро Лос-Текес | Линия 1'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Венесуэла, Метро Лос-Текес | Линия 1',
+                    'CountryNameCode': 'VE',
+                    'CountryName': 'Венесуэла',
+                    'Country': {
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'Метро Лос-Текес | Линия 1',
+            'description': 'Венесуэла',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '-67.038997 10.35251',
+                'upperCorner': '-67.011077 10.425179'
+              }
+            },
+            'Point': {
+              'pos': '-67.021273 10.387971'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Соединённые Штаты Америки, Красная линия, Метро-Сентер-Метро-Стейшен',
+                'kind': 'metro',
+                'Address': {
+                  'country_code': 'US',
+                  'formatted': 'Соединённые Штаты Америки, Красная линия, Метро-Сентер-Метро-Стейшен',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Соединённые Штаты Америки'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': 'Красная линия'
+                    },
+                    {
+                      'kind': 'metro',
+                      'name': 'Метро-Сентер-Метро-Стейшен'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Соединённые Штаты Америки, Красная линия, Метро-Сентер-Метро-Стейшен',
+                    'CountryNameCode': 'US',
+                    'CountryName': 'Соединённые Штаты Америки',
+                    'Country': {
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'Метро-Сентер-Метро-Стейшен',
+            'description': 'Красная линия, Соединённые Штаты Америки',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '-77.036779 38.891889',
+                'upperCorner': '-77.020322 38.90475'
+              }
+            },
+            'Point': {
+              'pos': '-77.02855 38.89832'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Соединённые Штаты Америки, Синяя линия, Метро-Сентер-Метро-Стейшен',
+                'kind': 'metro',
+                'Address': {
+                  'country_code': 'US',
+                  'formatted': 'Соединённые Штаты Америки, Синяя линия, Метро-Сентер-Метро-Стейшен',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Соединённые Штаты Америки'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': 'Синяя линия'
+                    },
+                    {
+                      'kind': 'metro',
+                      'name': 'Метро-Сентер-Метро-Стейшен'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Соединённые Штаты Америки, Синяя линия, Метро-Сентер-Метро-Стейшен',
+                    'CountryNameCode': 'US',
+                    'CountryName': 'Соединённые Штаты Америки',
+                    'Country': {
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'Метро-Сентер-Метро-Стейшен',
+            'description': 'Синяя линия, Соединённые Штаты Америки',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '-77.036303 38.89137',
+                'upperCorner': '-77.019846 38.90423'
+              }
+            },
+            'Point': {
+              'pos': '-77.028074 38.8978'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Румыния, Бухарест, линия метро М5',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'RO',
+                  'formatted': 'Румыния, Бухарест, линия метро М5',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Румыния'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Бухарест'
+                    },
+                    {
+                      'kind': 'locality',
+                      'name': 'Бухарест'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': 'линия метро М5'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Румыния, Бухарест, линия метро М5',
+                    'CountryNameCode': 'RO',
+                    'CountryName': 'Румыния',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Бухарест',
+                      'Locality': {
+                        'LocalityName': 'Бухарест',
+                        'Thoroughfare': {
+                          'ThoroughfareName': 'линия метро М5'
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'линия метро М5',
+            'description': 'Бухарест, Румыния',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '26.014196 44.415335',
+                'upperCorner': '26.073862 44.434835'
+              }
+            },
+            'Point': {
+              'pos': '26.044316 44.423711'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Россия, Горьковская железная дорога, остановочный пункт Метро Аметьево',
+                'kind': 'railway_station',
+                'Address': {
+                  'country_code': 'RU',
+                  'formatted': 'Россия, Горьковская железная дорога, остановочный пункт Метро Аметьево',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Россия'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': 'Горьковская железная дорога'
+                    },
+                    {
+                      'kind': 'railway_station',
+                      'name': 'остановочный пункт Метро Аметьево'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Россия, Горьковская железная дорога, остановочный пункт Метро Аметьево',
+                    'CountryNameCode': 'RU',
+                    'CountryName': 'Россия',
+                    'Country': {
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'остановочный пункт Метро Аметьево',
+            'description': 'Горьковская железная дорога, Россия',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '49.155291 55.76014',
+                'upperCorner': '49.171748 55.769418'
+              }
+            },
+            'Point': {
+              'pos': '49.16352 55.764779'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Соединённые Штаты Америки, штат Нью-Йорк, Метро-Норт-Гудзон-Лайн',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'US',
+                  'formatted': 'Соединённые Штаты Америки, штат Нью-Йорк, Метро-Норт-Гудзон-Лайн',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Соединённые Штаты Америки'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'штат Нью-Йорк'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': 'Метро-Норт-Гудзон-Лайн'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Соединённые Штаты Америки, штат Нью-Йорк, Метро-Норт-Гудзон-Лайн',
+                    'CountryNameCode': 'US',
+                    'CountryName': 'Соединённые Штаты Америки',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'штат Нью-Йорк',
+                      'Locality': {}
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'Метро-Норт-Гудзон-Лайн',
+            'description': 'штат Нью-Йорк, Соединённые Штаты Америки',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '-73.985588 40.869585',
+                'upperCorner': '-73.865286 41.499902'
+              }
+            },
+            'Point': {
+              'pos': '-73.908692 41.213197'
+            }
+          }
+        },
+        {
+          'GeoObject': {
+            'metaDataProperty': {
+              'GeocoderMetaData': {
+                'precision': 'other',
+                'text': 'Румыния, Бухарест, линия метро М3',
+                'kind': 'route',
+                'Address': {
+                  'country_code': 'RO',
+                  'formatted': 'Румыния, Бухарест, линия метро М3',
+                  'Components': [
+                    {
+                      'kind': 'country',
+                      'name': 'Румыния'
+                    },
+                    {
+                      'kind': 'province',
+                      'name': 'Бухарест'
+                    },
+                    {
+                      'kind': 'locality',
+                      'name': 'Бухарест'
+                    },
+                    {
+                      'kind': 'route',
+                      'name': 'линия метро М3'
+                    }
+                  ]
+                },
+                'AddressDetails': {
+                  'Country': {
+                    'AddressLine': 'Румыния, Бухарест, линия метро М3',
+                    'CountryNameCode': 'RO',
+                    'CountryName': 'Румыния',
+                    'AdministrativeArea': {
+                      'AdministrativeAreaName': 'Бухарест',
+                      'Locality': {
+                        'LocalityName': 'Бухарест',
+                        'Thoroughfare': {
+                          'ThoroughfareName': 'линия метро М3'
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            'name': 'линия метро М3',
+            'description': 'Бухарест, Румыния',
+            'boundedBy': {
+              'Envelope': {
+                'lowerCorner': '25.991378 44.405355',
+                'upperCorner': '26.208357 44.439211'
+              }
+            },
+            'Point': {
+              'pos': '26.103066 44.426312'
+            }
+          }
+        }
+      ]
+    }
+  }
+}
